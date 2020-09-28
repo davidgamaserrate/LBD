@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <div>
+    
+  </div>
+
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=PT+Sans">
+    <title>Bem Vindo ao To Do</title>
+</head> 
+
+<body>
+
+  <header class="cabecalho">
+
+    <div class="logo">
+      <a href="../TrabLbd/logos/todo_logo.png"></a>
+    </div>
+    
+     <div id="menu-bar">
+        <div id="menu" onclick="onclickMenu()">
+            <div id="bar1" class="bar"></div>
+            <div id="bar2" class="bar"></div>
+            <div id="bar3" class="bar"></div>
+        </div>
+
+        <ul class="nav" id="nav">
+            <li><a href="#">Minhas Tarefas</a></li>
+            <li><a href="#">Minhas Listas</a></li>
+            <li><a href="#">Configurações</a></li>
+        </ul>
+
+    </div>
+
+  </header>
+   
+    <div class="menu-bg" id="menu-bg"></div>
+    <div class ="top" >
+      <p>Minhas tarefas</p> 
+    </div>
+    <script src="script.js"></script>
+    
+    <div class="tarefas" onclick="addTarefas()">
+
+      <p>+Adicionar tarefa</p>
+
+    </div>
+      
+    <div class="tarefasLista">
+      <ul>
+        <li><a href="#"/li>Tarefa1</a>
+        <li><a href="#"/li>Tarefa2</a>
+      </ul>
+    </div>
+    
+
+</body>
+
+</html>
